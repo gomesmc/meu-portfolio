@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(236, 236, 236, 0.397);
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+h1{
+    padding-top: 0.5rem;
+    margin: 2rem;
+    border: 2px solid black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+}
+
+.subtitulo{
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+.introducao{
+    margin: 50px;
+    text-align: justify;   
+    margin-right: 10rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 2rem; 
+    margin-left: 3rem;
+}
+
+h2{
+    align-self: flex-start; 
+    margin-bottom: 1rem;
+}
+
+.item {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 1rem;
+}
+
+.desenvolvedor, .analista {
+    text-align: justify;
+    margin-right: 10rem;
+    margin-top: 0.5rem;
+}
+
+.image {
+    width: 100px; 
+    height: auto;
+}
+
+nav img{
+    width: 1.5rem;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 70px;
+    margin-top: -20rem;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    top: 600px;
+}    
+
+.imagens{
+    display: flex;
+    gap: 70px;
+}
+
+.separador{
+    text-align: center;
+}
+
+nav img:hover {
+    filter: brightness(0) invert(1);
+}
+
+button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}

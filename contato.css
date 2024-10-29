@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+   background-color: rgba(236, 236, 236, 0.397);
+   overflow: scroll;
+   scroll-behavior: smooth;
+}
+
+h1{
+    padding-top: 0.5rem;
+    margin: 2rem;
+    border: 2px solid black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+}
+
+.subtitulo{
+    font-size: 25px;
+    margin-left: 3rem;
+}
+
+.convite{
+    position: relative;
+    top: -1.5rem;
+    margin-left: 3rem;
+    font-size: 16.7px;
+}
+
+.img-contato img{
+    width: 4rem;
+    margin-left: 15rem;
+}
+
+.img-contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 8rem;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    position:relative;
+    padding-left: 20rem;
+    bottom: 20rem;
+    top: -650px;
+}
+
+.telefone{
+    position:relative;
+    padding-left: 20rem;
+    bottom: 20rem;
+    top: -500px;
+}
+
+.linkedin{
+    position:relative;
+    padding-left: 20rem;
+    bottom: 20rem;
+    top: -400px;  
+}
+
+.github{
+    position:relative;
+    padding-left: 20rem;
+    bottom: 20rem;
+    top: -150px;  
+}
+
+nav img{
+    width: 1.5rem;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 70px;
+    margin-top: -20rem;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    top: 600px;
+}    
+
+.imagens{
+    display: flex;
+    gap: 70px;
+}
+
+.separador{
+    text-align: center;
+}
+
+nav img:hover {
+    filter: brightness(0) invert(1);
+}
+
+button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}       
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

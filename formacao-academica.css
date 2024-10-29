@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body{
+    background-color: rgba(236, 236, 236, 0.397);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    margin: 2rem;
+}
+
+
+h1{
+    padding-top: 0.5rem;
+    margin: 2rem;
+    border: 2px solid black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+}
+
+h2{
+    margin: 2.5rem;
+    font-size: 2.5rem;
+    margin-bottom: -2rem;
+}
+
+.texto{
+    margin: 4rem;
+}
+
+.data{
+    background-color: orange;
+    width: fit-content;
+    padding: 0.3rem;
+    color: white;
+}
+
+.texto ul {
+    padding-left: 0; 
+    margin-left: 1.5rem; 
+}
+
+.educacao-2{
+    position: relative;
+    top: -20rem;
+    left: 20rem;
+}
+
+hr{
+    position: relative;
+    top: -22rem;
+    margin-right: 6rem;
+}
+
+.experiencia{
+    position: relative;
+    top: -22rem; 
+    margin: 2.5rem;
+    font-size: 2.5rem;
+    margin-bottom: -2rem;
+}
+
+.mover{
+    display: flex;
+    flex-direction: column;
+    margin-top: -21.5rem;
+    margin-left: 2.5rem;
+    padding: 0.3rem;
+}
+
+.estagio{
+    margin-top: 0.5rem;
+}
+
+nav img{
+    width: 1.5rem;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 70px;
+    margin-top: -20rem;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    top: 600px;
+}    
+
+.imagens{
+    display: flex;
+    gap: 70px;
+}
+
+.separador{
+    text-align: center;
+}
+
+nav img:hover {
+    filter: brightness(0) invert(1);
+}
+
+button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.moverti{
+    display: flex;
+    flex-direction: column;
+    margin-left: 31rem;
+    margin-top: -18.8rem;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgba(236, 236, 236, 0.397);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+}
+
+.subtitulo{
+    background-color: orange;
+    border-radius: 15px;
+    width: 25rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: -15px;
+    font-weight: bolder;
+}
+
+div{
+    gap: 5px;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+button{
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 1.5rem;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 70px;
+    margin-top: -20rem;
+    margin-right: 3rem;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 4px;
+    gap: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    top: 600px;
+}    
+
+.separador{
+    text-align: center;
+}
+
+.menu{
+    width: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+    position: absolute; 
+    right: 0;
+}
+
+.meio-pagina-1{
+    margin-top: 20rem;
+    position: static;
+}
+
+nav img:hover {
+    filter: brightness(0) invert(1);
+}
+
+button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
